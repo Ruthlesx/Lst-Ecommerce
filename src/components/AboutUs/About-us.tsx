@@ -32,19 +32,19 @@ const AboutUs = () => {
             <div className={styles['about-us-img']}>
                 <div style={{gap: "10px", display:"flex"}}>
                     <img src='/aboutimg1.png' />
-                    <img src='/aboutimg2.png'/>
-                    <img src='/aboutimg1.png' />
+                    <img src='/aboutimg3.png'/>
+                    <img src='/aboutimg4.png' />
                 </div>
 
                 <div style={{gap: "10px", display:"flex"}}>
-                    <img src='/aboutimg1.png' />
+                    <img src='/aboutimg5.png' />
                     <img src='/aboutimg2.png'/>
-                    <img src='/aboutimg1.png' />
+                    <img src='/aboutimg6.png' />
                 </div>
                 <div style={{gap: "10px", display:"flex"}}>
-                    <img src='/aboutimg1.png' />
-                    <img src='/aboutimg2.png'/>
-                    <img src='/aboutimg1.png' />
+                    <img src='/aboutimg7.png' />
+                    <img src='/aboutimg8.png'/>
+                    <img src='/aboutimg9.png' />
                 </div>
             </div>
         </div>
