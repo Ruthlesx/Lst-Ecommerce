@@ -137,10 +137,32 @@
     }
     
     .products-button {
-      padding: 15px;
-      color: #23A6F0;
-      border: #23A6F0 1px solid;
-      background-color: #ffffff;
-      margin: 10px;
+        border-radius: 5px;
+        padding-top: 15px;
+        padding-right: 40px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        border: 1px solid rgba(35, 166, 240, 1);
+        font-size: 0.875;
+        line-height: 22px;
+        letter-spacing: 0.2px;
+        text-align: center;
+        color: rgba(35, 166, 240, 1);
+        background: white;
+        font-weight: 700;
+        transition: all 0.5s;
     
+    }
+
+    .products-button:hover {
+        cursor: pointer;
+        background-color: rgba(35, 166, 240, 1);
+        color: white;
+    }
+
+    .products-button:disabled {
+        cursor: not-allowed;
+  background-color: gray;
+  color: white;
+  border: none;
     }

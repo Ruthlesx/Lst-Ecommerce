@@ -2,10 +2,10 @@ import React from 'react'
 import { FaBookReader } from "react-icons/fa";
 import { FaArrowTrendUp } from "react-icons/fa6";
 import { VscBook } from "react-icons/vsc";
-import { Link} from "react-router-dom"
+//import { Link} from "react-router-dom"
 import styles from './services.module.css'
 
-const Services = () => {
+const Services: React.FC = () => {
   return (
     <section className={styles['services-section']}>
         <div  className={styles['services-container']}>

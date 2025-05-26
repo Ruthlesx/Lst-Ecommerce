@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { RiStarSFill } from "react-icons/ri";
 import styles from './aboutus.module.css'
 

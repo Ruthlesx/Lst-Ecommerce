@@ -7,7 +7,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import styles from './posts.module.css'
 
 
-const Posts = () => {
+const Posts: React.FC = () => {
   return (
     <section  className={styles['featured-post-section']}>
         <div className={styles['featured-post-div-container']}>
@@ -64,7 +64,7 @@ const Posts = () => {
                     </div>
                 </div>
 
-                
+
                 {/*<div style={{display:"flex", flexDirection:"column", justifyContent: "center", alignItems: "center" }}>*/}
                 <div className='featured-container'>
                     <div className={styles['featured-post-img']}>

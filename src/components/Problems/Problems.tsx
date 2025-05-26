@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './problems.module.css'
 
 
-const Problems = () => {
+const Problems: React.FC = () => {
   return (
     <section className={styles['problems-section']}>
         <div  className={styles['problems-container']}>
