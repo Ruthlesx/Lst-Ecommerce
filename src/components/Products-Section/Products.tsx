@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 
 const Products: React.FC = () => {
-  const { data, error, isLoading } = useGetProductsQuery();
+  const { data, error, isLoading } = useGetProductsQuery('');
   const [visibleCount, setVisibleCount] = useState(8); // Show 4 products initially
 
   const handleLoadMore = () => {
